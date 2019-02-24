@@ -46,17 +46,17 @@ h1, h3 {
   font-size: 4vw;
 }
 
-}@media only screen and (max-width: 1200px) {
+}@media only screen and (max-width: 1024px) {
   body {
-    background-position: -600px;
+    background-attachment: scroll;
   }
 
-}@media only screen and (max-width: 800px) {
+}@media only screen and (max-width: 768px) {
   body {
-    background-position: -700px;
+    background-attachment: scroll;
   }
 }@media only screen and (max-width: 600px) {
   body {
-    background-position: -800px;
+    background-attachment: scroll;
   }
 
