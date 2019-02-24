@@ -23,7 +23,7 @@ body {
   
   /* Set a background color that will be displayed
      while the background image is loading */
-  background-color: #464646;
+  background-color: #1F1816;
 }
 
 .container {
@@ -45,3 +45,18 @@ h1, h3 {
   text-transform: capitalize;
   font-size: 4vw;
 }
+
+}@media only screen and (max-width: 1000px) {
+  body {
+    background-position: -500px;
+  }
+
+}@media only screen and (max-width: 800px) {
+  body {
+    background-position: -600px;
+  }
+}@media only screen and (max-width: 600px) {
+  body {
+    background-position: -800px;
+  }
+
