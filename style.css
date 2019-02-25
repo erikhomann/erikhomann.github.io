@@ -46,17 +46,23 @@ h1, h3 {
   font-size: 4vw;
 }
 
-}@media only screen and (max-width: 1024px) {
+@media only screen /*iphone 5*/
+and (min-device-width : 320px) 
+and (max-device-width : 568px) {
   body {
-    background-attachment: scroll;
+    background-image: url(DSC_4933a.jpg);
+    background-position: -100px;
   }
+}
 
-}@media only screen and (max-width: 768px) {
+
+@media only screen /*iphone X */
+and (min-device-width : 375px) 
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3) {
   body {
-    background-attachment: scroll;
+    background-image: url(DSC_4933a.jpg);
+    background-position: -200px;
   }
-}@media only screen and (max-width: 600px) {
-  body {
-    background-attachment: scroll;
-  }
+}
 
