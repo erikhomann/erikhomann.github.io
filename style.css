@@ -1,9 +1,11 @@
-html {
-  height: 100%;
-}
 
+* {
+  font-family: sans-serif;
+}
+/****************************************
+  fixed background
+****************************************/
 body {
-  height: 100%;
   /* Location of the image */
   background-image: url(DSC_4933b.jpg);
   
@@ -25,26 +27,41 @@ body {
      while the background image is loading */
   background-color: #1F1816;
 }
-
-.container {
-  height: 100%;
+/****************************************
+  header
+****************************************/
+header {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: 3fr 1fr;
 }
-.row {
-  height: 33%;
+
+.transparent {
+  grid-row: 1 / 2;
 }
 
-.col-8 {
+.slogan {
+  grid-row: 2 / 3;
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
+  background-color: white;
 }
 
-h1, h3 {
-  color: white;
+.slogan h1 {
+  text-transform: uppercase;
+}
+
+.slogan h2 {
   text-transform: capitalize;
-  font-size: 4vw;
 }
 
 
-
+/****************************************
+  media queries
+****************************************/
+@media only screen and (min-width: 1024px) {
+  body {
+    background-image: url(DSC_4933.jpg);
+  }
+}
