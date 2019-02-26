@@ -59,6 +59,47 @@ header {
   text-transform: capitalize;
 }
 
+/****************************************
+  section-one
+****************************************/
+section {
+  display: grid;
+  grid-template-rows: 1fr 4fr 1fr;
+  grid-template-columns: 1fr 6fr 1fr;
+}
+
+section .title {
+  grid-row: 1/2;
+  grid-column: 2/3;
+  background-color: orange;
+  opacity: 0.8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section .content {
+  grid-row: 2/3;
+  grid-column: 2/3;
+  background-color: white;
+  opacity: 0.7;
+}
+
+/****************************************
+  section-two
+****************************************/
+
+
+
+/****************************************
+  section-three
+****************************************/
+
+
+/****************************************
+  section-four
+****************************************/
+
 
 /****************************************
   media queries
@@ -70,4 +111,20 @@ header {
   body {
     background-image: url(DSC_4933.jpg);
   }
+  header {
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: 2fr 4fr 4fr 2fr;
+  }
+  .transparent {
+    grid-row: 1 / 5;
+  }
+  .slogan {
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+  }
 }
+
+
+
+
+
