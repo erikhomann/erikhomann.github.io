@@ -22,6 +22,9 @@ body {
   
   /* This is what makes the background image rescale based
      on the container's size */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
   
   /* Set a background color that will be displayed
