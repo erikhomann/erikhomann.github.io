@@ -33,7 +33,7 @@ body {
 header {
   min-height: 100vh;
   display: grid;
-  grid-template-rows: 3fr 1fr;
+  grid-template-rows: 6fr 1fr 1fr;
 }
 
 .transparent {
@@ -46,6 +46,7 @@ header {
   justify-content: center;
   align-items: center;
   background-color: white;
+  opacity: 0.8;
 }
 
 .slogan h1 {
