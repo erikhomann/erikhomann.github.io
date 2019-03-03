@@ -107,7 +107,7 @@ section .content {
 /****************************************
   media queries
 ****************************************/
-@media only screen and (min-width: 1024px), (orientation:landscape) {
+@media only screen and (min-width: 768px), (orientation:landscape) {
   * {
     font-size: 2vw;
   }
@@ -128,14 +128,14 @@ section .content {
     pointer-events: none;
 }
   header {
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-rows: 2fr 1fr 1fr 1fr 1fr 2fr;
     grid-template-columns: 2fr 4fr 4fr 2fr;
   }
   .transparent {
     grid-row: 1 / 5;
   }
   .slogan {
-    grid-row: 2 / 3;
+    grid-row: 4 / 5;
     grid-column: 2 / 3;
   }
 }
