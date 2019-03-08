@@ -4,34 +4,41 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<title>my first website</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+	<i class="fas fa-bars" onclick="openNav()"></i>
 	<div class="bg"></div>
 	<header id="home">
-		<nav id="navigation">
+		<nav id="navigation" class="sidenav">
 			<ul>
 				<li>
-					<a href="#home">home</a>
+					<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 				</li>
 				<li>
-					<a href="#videos">videos</a>
+					<a href="#home" onclick="closeNav()">home</a>
 				</li>
 				<li>
-					<a href="#news">news</a>
+					<a href="#videos" onclick="closeNav()">videos</a>
 				</li>
 				<li>
-					<a href="#statements">standpunkte</a>
+					<a href="#news" onclick="closeNav()">news</a>
 				</li>
 				<li>
-					<a href="#vita">vita</a>
+					<a href="#statements" onclick="closeNav()">standpunkte</a>
 				</li>
 				<li>
-					<a href="#photos">Bilder</a>
+					<a href="#vita" onclick="closeNav()">vita</a>
+				</li>
+				<li>
+					<a href="#photos" onclick="closeNav()">Bilder</a>
 				</li>
 			</ul>
 		</nav>
-		<div class=transparent></div>
+		<div class=transparent>
+
+		</div>
 		<div class="slogan">
 			<div>
 				<h1>erik homann</h1>
@@ -152,5 +159,16 @@
 			</div>
 		</div>
 	</section>
+	<script type="text/javascript">
+		/* Set the width of the side navigation to 250px */
+		function openNav() {
+  			document.getElementById("navigation").style.width = "250px";
+		}
+
+		/* Set the width of the side navigation to 0 */
+		function closeNav() {
+  			document.getElementById("navigation").style.width = "0";
+		}
+	</script>
 </body>
 </html>
