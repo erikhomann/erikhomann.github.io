@@ -138,7 +138,7 @@ section .wrapper {
   position: relative;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 
 article {
