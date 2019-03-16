@@ -45,7 +45,8 @@ header {
 .fa-bars {
   color: white;
   position: fixed;
-  top: 2%;
+  top: 5%;
+  left: 5%;
   z-index: 998;
 }
 
