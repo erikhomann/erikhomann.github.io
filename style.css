@@ -114,6 +114,10 @@ header {
   text-transform: capitalize;
 }
 
+.slogan img {
+  width: 100%;
+}
+
 /****************************************
   sections
 ****************************************/
