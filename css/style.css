@@ -11,7 +11,7 @@ p {
   fixed background
 ****************************************/
 body {
-    background: url(DSC_4933b.jpg) no-repeat center center fixed; 
+    background: url(images/DSC_4933b.jpg) no-repeat center center fixed; 
     -webkit-background-size: 100%; 
     -moz-background-size: 100%; 
     -o-background-size: 100%; 
@@ -24,7 +24,7 @@ body {
 
 body .bg {
     background-color: #000000;
-    background-image: url(DSC_4933b.jpg);
+    background-image: url(images/DSC_4933b.jpg);
     background-size: cover;
     background-position: 50%;
     width: 100%;
@@ -176,11 +176,11 @@ article img {
     font-size: 2vw;
   }
   body {
-    background-image: url(DSC_4933.jpg);
+    background-image: url(images/DSC_4933.jpg);
   }
   body .bg {
     background-color: #000000;
-    background-image: url(DSC_4933.jpg);
+    background-image: url(images/DSC_4933.jpg);
     background-size: cover;
     background-position: 50%;
     width: 100%;
