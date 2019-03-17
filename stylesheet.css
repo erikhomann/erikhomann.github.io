@@ -1,0 +1,11 @@
+/* first for Internet Explorer < 9 */
+  @font-face {
+    font-family: MyKievit;
+    src: url("CDUKievitWeb-Medium.eot");
+}
+  /* then for WOFF-capable browsers */
+  @font-face {
+    font-family: MyKievit;
+    src: url("CDUKievitWeb-Medium.woff") format("woff");
+}
+

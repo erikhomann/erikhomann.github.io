@@ -1,7 +1,11 @@
 
 * {
-  font-family: sans-serif;
+  font-family: 'MyKievit', Verdana, sans-serif;
   font-size: 5vw;
+}
+
+p {
+  font-family: Verdana, sans-serif;
 }
 /****************************************
   fixed background
@@ -122,8 +126,9 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: white;
-  margin: 20px 20px;
+  color: #FFFFFF;
+  background-color: #FF9900;
+  margin: 50px 20px 20px 20px;
 }
 
 section .container {
