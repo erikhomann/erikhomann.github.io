@@ -175,10 +175,6 @@ article {
   padding-left: 15px;
 }
 
-.textTiles {
-  height: 300px;
-}
-
 .textTiles h2 {
   text-align: center;
   padding: 25px;
@@ -231,6 +227,9 @@ article img {
   /* When you mouse over the navigation links, change their color */
   .sidenav a:hover {
   color: #f1f1f1;
+  }
+  .textTiles {
+  height: 300px;
   }
 }
 
