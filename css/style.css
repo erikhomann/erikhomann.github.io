@@ -174,7 +174,7 @@ article img {
 ****************************************/
 @media only screen and (min-width: 768px), (orientation:landscape) {
   * {
-    font-size: 2vw;
+    font-size: 1em;
   }
   body {
     background-image: url(../images/DSC_4933.jpg);
@@ -203,6 +203,9 @@ article img {
     grid-row: 4 / 5;
     grid-column: 2 / 3;
   }
+  .long {
+  padding: 25px;
+  }
 
   /* When you mouse over the navigation links, change their color */
   .sidenav a:hover {
@@ -215,10 +218,15 @@ article img {
     margin: 20px auto;
     max-width: 960px;
   }
-
+  * {
+    font-size: 1em
+  }
   /* When you mouse over the navigation links, change their color */
   .sidenav a:hover {
   color: #f1f1f1;
+  }
+  .long {
+  padding: 25px;
   }
 }
 
